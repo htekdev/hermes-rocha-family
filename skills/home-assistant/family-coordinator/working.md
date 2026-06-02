@@ -11,9 +11,18 @@
 - Car seat: confirmed installed pre-discharge
 - Go-bag: confirmed packed
 
-### Mia — NICU (status as of June 3)
-- Mia still in NICU — confirm current discharge estimate
-- Daily NICU visits likely continue for Paula
+### Mia — NICU (status as of June 3) 🏥
+- Mia still in NICU — discharge date TBD (never speculate; relay only what NICU team confirms)
+- Daily NICU visits likely continue for Paula (confirm logistics)
+- **Mia discharge readiness tracker** (in nicu-care/SKILL.md):
+  - [ ] Off supplemental oxygen
+  - [ ] Maintaining body temperature independently
+  - [ ] All feeds breast/bottle (no NG tube)
+  - [ ] Consistent weight gain 3+ days
+  - [ ] Car seat tolerance test passed
+  - [ ] Family CPR training done
+  - [ ] Pediatrician appt scheduled for post-discharge
+- When Mia comes home: re-activate twins-home-mode protocol (same as Leo's)
 
 ### HJ — Sibling Adjustment ACTIVE
 - HJ (age ~4): sibling adjustment period begins June 3

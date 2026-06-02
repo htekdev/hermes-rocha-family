@@ -160,11 +160,207 @@
 
 ---
 
-## What's Next (Session 6)
-- [ ] Study extensions: telegram-bridge, nicu-tracker, google-integration patterns
-- [ ] Implement nightly-reflection skill (platform-manager equivalent for Hermes)
-- [ ] Update family-profile.md with Leo discharge confirmation once received from OG agent
-- [ ] Flesh out dog-parent/working.md with Bella's current state
-- [ ] Consider: content-manager awareness skill (Hermes watches for family content opportunities without duplicating OG's pipeline)
+## What's Next (Session 7)
+- [ ] Study remaining agent files: wellness-coach, parenting-coach, luna (friendship agent)
+- [ ] Implement wellness-coach skill (Paula-focused, BP/sleep/anxiety + pump as stress indicator)
+- [ ] Implement parenting-coach skill (HJ sibling adjustment, NICU dynamics)
+- [ ] Create events.log for live event streaming
+- [ ] Post-discharge: update family-profile.md + family-coordinator/working.md once Leo is home
 
-## Last Seen Mesh Message ID: 1780412270559880
+## Last Seen Mesh Message ID: 1780420242145881
+
+---
+
+## Session 7 — 2026-06-02
+
+### Mesh Check
+- New messages from Session 6 broadcast (1780420242145881) — no external agent messages to reply to
+- OG's alignment message (1780412270559880) from Session 5 confirmed domain boundaries — no new action needed
+
+### What Was Studied
+- **parenting-coach.agent.md** — Sibling adjustment patterns, HJ strategies, NICU parenting, communication rules per parent
+- **teacher.agent.md** — Pre-K benchmarks, formal teaching suspended during Paula's recovery, low-pressure enrichment mode
+
+### What Was Implemented
+30. `skills/home-assistant/wellness-coach/SKILL.md` — Paula postpartum wellness monitoring, pump-as-stress-indicator, BP tracking, communication rules
+31. `skills/home-assistant/wellness-coach/working.md` — Current pump baseline, active concerns, Leo discharge transition prep
+32. `skills/home-assistant/parenting-coach/SKILL.md` — HJ sibling adjustment, evidence-based strategies, Leo home June 3 intro protocol
+33. `skills/home-assistant/parenting-coach/working.md` — HJ status, tips log (anti-repeat), Leo intro protocol ACTIVE
+34. `skills/home-assistant/teacher/SKILL.md` — Pre-K benchmarks, enrichment-only mode during NICU period, milestone celebrations
+35. `data/agents/events.log` — Live event log initialized (Tier 4 memory)
+
+### Key Patterns Extracted
+- **Pump output = leading wellness indicator**: Decline 3+ days before Paula consciously reports distress
+- **HJ 15 min/day 1-on-1**: Single highest ROI parenting intervention during sibling adjustment
+- **Acting out = processing**: Never discipline-first; connect → redirect
+- **Teacher in enrichment mode**: Formal curriculum suspended until 4+ weeks post-discharge stable
+- **Events.log as Tier 4**: Append-only; timestamp + agent + event_type + message format
+- **Luna agent exists** (friendship/emotional agent) — study next session
+
+### Skills Inventory (35 total)
+*(Sessions 1-6: 29 skills — see above)*
+30. wellness-coach/SKILL.md ← NEW Session 7
+31. wellness-coach/working.md ← NEW Session 7
+32. parenting-coach/SKILL.md ← NEW Session 7
+33. parenting-coach/working.md ← NEW Session 7
+34. teacher/SKILL.md ← NEW Session 7
+35. data/agents/events.log ← NEW Session 7
+
+---
+
+## What's Next (Session 8)
+- [x] Implement luna-awareness skill — emotional routing + Hermes boundary map
+- [x] Update family-profile.md + family-coordinator/working.md with Leo home (June 3)
+- [x] Study telegram-bridge extension for Telegram integration patterns
+- [x] Create hermes-mesh-protocol skill (inter-agent communication standards, offset tracking)
+- [x] Create telegram-bridge/SKILL.md (TTS rules, Paula limits, quiet hours)
+- [ ] Study nicu-care.agent.md if it exists (Session 9)
+
+---
+
+## Session 8 — 2026-06-02
+
+### Mesh Check
+- Last ID: 1780420242145881 (own Session 7 broadcast)
+- No new external messages requiring reply
+- Updated offset: 1780428013191424
+
+### What Was Studied
+- **copilot-life-os-starters** (htekdev) — Telegram bridge extension source: TTS tool, allowlist, ask-human pattern, placeholder architecture
+- **luna agent** — File not directly accessible via raw.githubusercontent.com; implemented luna-awareness from prior session context + architecture patterns
+- **Domain agent template** — confirmed: memory load pattern, ownership model, minimal footprint per agent
+
+### What Was Implemented
+36. `skills/home-assistant/luna-awareness/SKILL.md` — Emotional support routing, Hermes/Luna boundary map, Paula isolation detection, PPD escalation path
+37. `skills/home-assistant/hermes-mesh-protocol/SKILL.md` — Mesh endpoints, agent ID table, offset tracking, domain boundary table, broadcast pattern
+38. `skills/home-assistant/telegram-bridge/SKILL.md` — TTS rules, Paula message limits, quiet hours, priority levels, format patterns
+- Updated `skills/home-assistant/family-profile.md` — Leo HOME June 3 ✅, Paula named, HJ adjustment ACTIVE, Mia NICU, preemie rules
+- Updated `skills/home-assistant/family-coordinator/working.md` — Twins-home mode, Mia status, HJ protocol, pending clarifications
+
+### Key Patterns Extracted
+- **Luna boundary**: Hermes acknowledges emotional content but doesn't fill Luna's role; route or create space
+- **Telegram bridge**: TTS is Hector-only; Paula = 2-3 lines, drip-feed, no TTS, no rapid-fire
+- **Quiet hours**: 10 PM – 7 AM CT; only CRITICAL override
+- **Offset tracking**: Save highest message_id after every mesh read
+- **Domain agent template**: load core.md + working.md first; own your domain; ask before irreversible
+
+### Skills Inventory (38 total)
+*(Sessions 1-7: 35 skills)*
+36. luna-awareness/SKILL.md ← NEW Session 8
+37. hermes-mesh-protocol/SKILL.md ← NEW Session 8
+38. telegram-bridge/SKILL.md ← NEW Session 8
++ Updated: family-profile.md, family-coordinator/working.md
+
+---
+
+## What's Next (Session 9)
+- [ ] Study nicu-care.agent.md or equivalent (NICU daily patterns, discharge checklist)
+- [ ] Update dog-parent/working.md (Bella baby-intro protocol — Leo now home, Phase 1 active)
+- [ ] Create Mia discharge tracking protocol in family-coordinator/working.md
+- [ ] Scan for any missing skills from prior sessions not yet in SKILL.md format
+- [ ] Review hermes-cron-schedule.md — update with post-discharge timing adjustments
+
+---
+
+## Session 9 — 2026-06-03
+
+### Mesh Check
+- No new external messages (offset: 1780428013191424)
+- Heartbeat sent ✅
+
+### What Was Studied
+- **cron.json (nicu-care section)** — `nicu-care-checkin` fires at `:06` after every heartbeat hour, pumping reminders 15 min before session, logs to pumping-log.json (OG domain)
+- **context-auditor.agent.md** — Re-read: stale working.md detection (7+ days), auto-fix policy, daily quiet scan
+- **standing-orders.md** — Re-read: stasis detection pattern (`stasis_consecutive_days >= 5 → log → exit ≤2 turns`), carplay/milk-mama as examples
+- **home-manager.agent.md** — Re-read: nursery tracking, task-first rule, Houston seasonal calendar
+
+### What Was Implemented
+39. `skills/home-assistant/nicu-care/SKILL.md` — NICU patterns, Leo home/Mia NICU, adjusted age standard, pumping trend monitoring, domain split with OG, Mia discharge readiness checklist
+40. `skills/home-assistant/stasis-detection/SKILL.md` — Cost-saving idle-agent pattern: 5-day trigger, silent exit ≤2 turns, working.md format, reset conditions
+41. Updated `skills/home-assistant/dog-parent/working.md` — Bella Phase 1 ACTIVE (Leo home), phase sequence tracker
+42. Updated `skills/home-assistant/family-coordinator/working.md` — Mia discharge readiness checklist, TBD language enforced
+
+### Key Patterns Extracted
+- **OG vs Hermes NICU split**: OG logs sessions; Hermes monitors trends and pediatric follow-ups
+- **Stasis detection**: ≥5 idle days → silent exit; never apply to critical-domain agents
+- **Mia discharge**: Only relay confirmed NICU team dates — never speculate
+- **Adjusted age is mandatory**: Every milestone reference must use adjusted age (~10 weeks offset)
+- **Bella Phase 1**: Scent-first introduction; advance only when checklist complete; NEVER unsupervised
+
+### Skills Inventory (40 skills + working.md files)
+*(Sessions 1-8: 38 SKILL.md files)*
+39. nicu-care/SKILL.md ← NEW Session 9
+40. stasis-detection/SKILL.md ← NEW Session 9
++ Updated: dog-parent/working.md, family-coordinator/working.md
+
+---
+
+## What's Next (Session 10)
+- [ ] Study accessible remaining source agents (wellness-coach, luna via alternate path)
+- [ ] Create `checkin-orchestrator/SKILL.md` — orchestrator pattern for Hermes's hourly mesh check
+- [ ] Create `budget-review/SKILL.md` — monthly spending review (1st of month pattern)
+- [ ] Update `hermes-cron-schedule.md` with post-discharge timing adjustments
+- [ ] Run context audit: check all working.md files for staleness (>7 days)
+
+## Last Seen Mesh Message ID: 1780428013191424
+
+
+
+---
+
+## Session 6 — 2026-06-02
+
+### Mesh Check
+- Last seen ID was 1780412270559880 from Session 5
+- New messages: only my own Session 5 broadcast (1780416241765100) — no external messages to reply to
+
+### What Was Studied
+- **platform-manager.agent.md** — Full nightly reflection 5-phase protocol, decision tiers, git workflow, correction-persistence pattern
+- **cron.json (full)** — Complete job inventory: heartbeat, family care, content pipeline, dev/platform categories + scheduling strategy
+- **constitution.md + standing-orders.md** — Re-read for extensions/nightly-reflection patterns
+
+### What Was Implemented
+26. `~/.hermes/skills/home-assistant/nightly-reflection.md` — Full 5-phase nightly protocol adapted for Hermes
+27. `~/.hermes/skills/home-assistant/dog-parent/working.md` — Bella's current state + baby-dog intro protocol (ACTIVE — Leo home tomorrow)
+28. `~/.hermes/skills/home-assistant/content-awareness.md` — Hermes content watching role (hand off to OG, never produce)
+29. `~/.hermes/skills/home-assistant/leo-discharge-ops.md` — Updated to ACTIVE STANDBY with discharge details confirmed
+
+### Key Patterns Extracted
+- **Nightly reflection is 5-phase**: Phase 0 FIX FIRST → Transcript review → Data gather → Pattern recognition → Proposals → Report
+- **Proposals ignored 2x → reframe or drop**: Never repeat unchanged
+- **Cron priority**: heartbeat first (`:00-:03`), family care (`:06-:10`), content (`:30-:42`), platform (`:45-:53`)
+- **Dog-baby intro**: scent first → sound → visual → supervised meeting on leash; NEVER unsupervised
+- **Content hand-off**: Hermes spots opportunity, flags via mesh TYPE:task-request, never produces content
+
+### Skills Inventory (29 total)
+1. constitution.md
+2. standing-orders.md
+3. daily-briefing.md
+4. finance-manager.md
+5. family-coordinator.md
+6. health-coach.md
+7. task-coach.md
+8. meal-planner.md
+9. weekly-planner.md
+10. platform-manager.md
+11. cron-patterns.md
+12. home-manager.md
+13. context-auditor.md
+14. family-profile.md
+15. skill-optimizer.md
+16. dog-parent.md
+17. nutrition-chef.md
+18. memory-architecture.md
+19. hermes-cron-schedule.md
+20. family-coordinator/working.md
+21. health-coach/working.md
+22. hermes-governance.md
+23. leo-discharge-ops.md (updated Session 6)
+24. finance-manager/working.md
+25. home-manager/working.md
+26. nightly-reflection.md ← NEW Session 6
+27. dog-parent/working.md ← NEW Session 6
+28. content-awareness.md ← NEW Session 6
+29. agent-mesh/SKILL.md (existing)
+
+---
