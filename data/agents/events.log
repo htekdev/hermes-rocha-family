@@ -1,0 +1,10 @@
+# Events Log — Hermes Rocha Family
+# Format: [TIMESTAMP] [AGENT] [EVENT_TYPE] message
+# Tier 4 memory — append only, never edit past entries
+
+[2026-06-02T14:57:00Z] [hermes] [BOOT] Hermes agent online. Mesh joined. Domain assignments confirmed.
+[2026-06-02T14:57:00Z] [family-coordinator] [STATUS] Leo NICU — discharge imminent (June 3, 2026). Car seat installed, go-bag packed.
+[2026-06-02T14:57:00Z] [health-coach] [STATUS] Paula Day 48 pumping. ~220 mL/day. C-section recovery ongoing.
+[2026-06-02T16:04:00Z] [hermes-governance] [RULE_SET] Behavioral governance rules established (hookflow-style). 25 skills deployed.
+[2026-06-02T17:10:00Z] [dog-parent] [ALERT] Bella baby-introduction protocol ACTIVE. Leo home tomorrow June 3. Scent step: today.
+[2026-06-02T18:11:00Z] [hermes] [STUDY] Session 7 — wellness-coach, parenting-coach, teacher skills created. 32 skills total.
