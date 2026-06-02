@@ -9,15 +9,24 @@
 - **Traits:** ADD — responds best to one task at a time, celebrate wins, no streak interruptions
 - **Communication:** Direct, result-first; 2–5 lines preferred
 
-### [Partner/Spouse]
+### Paula Rocha
 - **Role:** Mother
-- **Note:** Recently through twin pregnancy/NICU — recovery context applies
+- **Telegram:** Paula channel (2–3 lines max, no TTS, drip-feed only)
+- **Status:** Postpartum recovery; pumping ~220mL/day (Day ~49 as of June 3)
+- **Note:** NICU period ended — Leo home June 3, 2026. Isolation risk window active.
 
-### The Twins
-- **Born:** April 16, 2026
-- **Status:** NICU post-birth; expected discharge late May–June 2026
-- **Critical:** Nursery must be ready before discharge
+### HJ (Hector Jr.)
+- **Role:** Older sibling
+- **Status:** Sibling adjustment period ACTIVE — Leo home June 3
+- **Protocol:** Hector greets HJ first on Leo's homecoming day; 15 min/day 1-on-1 priority
+
+### The Twins — Leo & Mia
+- **Born:** April 16, 2026 (~10 weeks premature)
+- **Adjusted age standard:** Always use adjusted age for milestones (subtract ~10 weeks)
+- **Leo status:** HOME as of June 3, 2026 ✅
+- **Mia status:** Still in NICU as of June 3, 2026 (confirm current status)
 - **Safety:** Never state child location as current fact — always caveat with time-of-knowledge
+- **Preemie home rules:** Nursery temp 68–72°F; RSV caution; no crowds for 4+ weeks
 
 ---
 
@@ -69,4 +78,4 @@ Any actionable discovery → create/log a task BEFORE or alongside the Telegram 
 
 ---
 
-*Last updated: 2026-06-02 | Update whenever family facts change*
+*Last updated: 2026-06-03 | Leo home. Update whenever family facts change*
