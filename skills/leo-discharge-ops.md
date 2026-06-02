@@ -92,6 +92,13 @@ Always reference ADJUSTED age with Paula and Hector.
 ---
 
 ## Status
-- Leo discharge: IMMINENT (expected June 3, 2026 per mesh intel)
-- Mia status: [check with OG agent for current NICU status]
-- Mode: STANDBY → will activate on discharge confirmation signal
+- Leo discharge: **TOMORROW — June 3, 2026** (confirmed per OG mesh intel)
+- Car seat: installed ✅ | Go-bag: packed ✅ | Paula: Day 48 pumping, ~220mL/day
+- Mia status: Still in NICU — second discharge TBD
+- Mode: **ACTIVE STANDBY** — awaiting discharge time signal from OG agent
+- Bella baby-intro: Pre-introduction scent step should happen TODAY if not done
+
+## Session 6 Updates (2026-06-02)
+- dog-parent/working.md created with baby-dog introduction protocol
+- Bella heat protocol active (June = extreme Houston heat)
+- Pre-discharge Bella briefing queued for today
