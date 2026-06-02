@@ -52,19 +52,60 @@
 - **Cron energy matching**: Complex AM, nudges active hours, reflection evening
 - **Proposal hygiene**: Proposals ignored 2x → reframe or drop, never repeat unchanged
 
-### What's Next (Session 3)
-- [ ] Study extensions: telegram-bridge, budget-tracker, google-integration
-- [ ] Study home-manager agent — chores, maintenance schedules
-- [ ] Study context-auditor agent — contradiction detection, freshness scanning
-- [ ] Study data/family/ structure — create Rocha family profile files
-- [ ] Study memory architecture deeply — 4-tier (core.md, working.md, long-term.md, events.log)
-- [ ] Study skill-optimizer agent — orphaned refs, bloated agents, quality scanning
-- [ ] Consider implementing Rocha-specific cron adjustments based on learned patterns
+---
+
+## Session 3 — 2026-06-02
+
+### What Was Studied
+- **home-manager.agent.md** — Maintenance schedules, Houston seasonal calendar, nursery/twins context, contractor decision framework
+- **context-auditor.agent.md** — 4-tier audit scope, contradiction/stale/bloat/redundancy detection, auto-fix policy, parallel sub-agent audit pattern
+- *Extensions (telegram-bridge, budget-tracker, google-integration, memory-manager, task-manager)* — URLs inaccessible; defer to next session
+
+### What Was Implemented
+12. `~/.hermes/skills/home-assistant/home-manager.md` — Maintenance, seasonal calendar (Houston), nursery tracking, $200 threshold
+13. `~/.hermes/skills/home-assistant/context-auditor.md` — Quality assurance patterns, audit tiers, auto-fix policy
+14. `~/.hermes/skills/home-assistant/family-profile.md` — ✨ NEW: Master Rocha family context file (members, location, rules, standards)
+15. `~/.hermes/skills/home-assistant/skill-optimizer.md` — Orphan detection, bloat control, weekly review pattern
+
+### Key Patterns Extracted
+- **Family Profile as anchor**: Single-source-of-truth for family facts all agents reference
+- **Nursery/twins timeline**: April 16, 2026 birth; discharge late May–June 2026 — nursery readiness is critical
+- **Houston seasonal maintenance**: AC tune-up spring, freeze protection winter
+- **Context audit cadence**: Daily quick scan (silent unless critical) + weekly full audit (Sunday)
+- **Skill size budget**: 15KB cap per skill, 5KB cap per working memory file
+- **Parallel audit sub-agents**: Contradiction Analyst + Efficiency Analyst + Architecture Analyst
+
+### Skills Inventory (15 total)
+1. constitution.md
+2. standing-orders.md
+3. daily-briefing.md
+4. finance-manager.md
+5. family-coordinator.md
+6. health-coach.md
+7. task-coach.md
+8. meal-planner.md
+9. weekly-planner.md
+10. platform-manager.md
+11. cron-patterns.md
+12. home-manager.md
+13. context-auditor.md
+14. family-profile.md ← NEW this session
+15. skill-optimizer.md ← NEW this session
+
+---
+
+## What's Next (Session 4)
+- [ ] Fetch extensions: try alternate URLs or GitHub raw for telegram-bridge, budget-tracker, google-integration
+- [ ] Study remaining agents: dog-parent, nutrition-chef, coding-agent, shopping-agent
+- [ ] Study memory architecture: data/agents/*/core.md pattern → implement for Hermes
+- [ ] Implement a Rocha-specific Hermes cron schedule file based on cron-patterns.md
+- [ ] Consider creating actual Hermes cron entries for daily briefing + weekly planner
+- [ ] Study data/family/*.json structure → flesh out family-profile.md with more specifics
 
 ---
 
 ## Upcoming Sessions Backlog
-- Session 3: Extensions deep-dive (telegram-bridge, budget-tracker, google-integration)
-- Session 4: Home manager + context auditor + memory architecture
-- Session 5: Family data structure → create Rocha family profiles
-- Session 6: Skill optimizer + autonomous improvement loop
+- Session 4: Extensions deep-dive + remaining agents (dog-parent, nutrition-chef, shopping)
+- Session 5: Memory architecture implementation (core.md, working.md, long-term.md, events.log)
+- Session 6: Hermes cron configuration — add daily briefing + weekly plan + nightly reflection
+- Session 7: Skill optimizer run — audit all 15 skills for quality, deduplicate, trim
