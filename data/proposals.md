@@ -23,24 +23,24 @@ Rules:
 ---
 
 ### P-002 — Pediatrician Visit Reminder (Leo, 48h Window)
-**Status:** Active
+**Status:** ✅ Actioned (Session 24)
 **Type:** Time-sensitive task
 **Created:** 2026-06-03
-**Proposal:** Remind Hector by June 5 that Leo needs first pediatrician visit within 48h of discharge. Route to OG agent as TYPE:task-request to create calendar event.
+**Actioned:** 2026-06-03 — Hector notified via Telegram. health-coach/working.md updated.
 **Reason:** NICU discharge protocols require 48-hour follow-up. Missing this window is a medical risk.
 **Approval needed:** No — within Hermes health-coordination domain
-**Attempts:** 0
+**Attempts:** 1
 
 ---
 
 ### P-003 — RSV Visitor Guidance to Hector
-**Status:** Active
+**Status:** ✅ Actioned (Session 24)
 **Type:** Informational message
 **Created:** 2026-06-03
-**Proposal:** Send Hector a brief note: "Reminder: For Leo's first 4 weeks home, RSV caution — limit visitors, especially during respiratory illness season. Preemie immune systems are still developing."
+**Actioned:** 2026-06-03 — Hector notified via Telegram. health-coach/working.md updated with RSV guidance.
 **Reason:** RSV is a serious risk for preterm infants. Proactive guidance prevents family conflicts around visitors.
 **Approval needed:** No — within Hermes health-coordination domain
-**Attempts:** 0
+**Attempts:** 1
 
 ---
 

@@ -1,5 +1,5 @@
 # Dog Parent — Working Memory
-**Last updated:** 2026-06-03
+**Last updated:** 2026-06-03 (Session 24)
 **Domain owner:** Hermes
 
 ---

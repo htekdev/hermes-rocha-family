@@ -1,23 +1,29 @@
 # Health Coach — Working Memory
-_Last updated: 2026-06-03 Session 22 | Agent: Hermes_
+# Updated: 2026-06-03 (Session 24)
 
 ## Active Context
-- **Paula:** Postpartum Day ~49 (June 3); pumping ~220mL/day — DUAL STRESS: Leo home + Leilani NICU
-- **Leo (twin 1):** HOME June 3 — preemie protocols active; first pediatrician visit due ~June 5 (48h post-discharge)
-- **Leilani / Mia (twin 2):** NICU ongoing — adjusted age tracking applies
-- **Hector:** ADD — single task delivery, celebrate wins, no streak interruption
+- **Paula:** C-section recovery Day 48. Pumping ~220 mL/day. PPD peak window ACTIVE (through ~June 10). Hypertension history — monitor.
+- **Leo:** Home Day 1 (June 3, 2026). First pediatrician visit due within 48h = **by June 5** (P-002 active).
+- **Mia:** Still NICU. Discharge TBD.
+- **Hector:** High load — work + NICU + home + HJ + Bella. Monitor for burnout signals.
+
+## Pending Actions
+- **P-002 ACTIVE:** Pediatrician reminder for Leo — due June 5. Route to Hector via Telegram.
+- **P-003 ACTIVE:** RSV visitor guidance to send Hector. Preemie immune systems — limit visitors first 4 weeks.
 
 ## Watchlist
-- **P-002 ACTIVE**: Leo 48h pediatrician follow-up → due ~June 5. Task should be created/confirmed in OG.
-- Paula pump output trend: baseline ~220mL/day; flag if 3-day decline observed
-- Leo preemie safety: nursery 68–72°F, RSV caution, no crowds for 4+ weeks
-- Leilani discharge → activate same preemie home protocol as Leo
+- Leo's first pediatrician appointment confirmation
+- Paula BP readings (flag any elevation to health-coach agent immediately)
+- Paula pump output trend — baseline 220 mL/day; drop > 15% = flag
+- Hector sleep quality — new baby home affects him too
 
-## Pending Clarifications
-- Pediatrician contact for Leo's 48h follow-up confirmed?
-- Paula's current iron/nutrition plan post-delivery?
-- Any medications Hector takes that need reminders?
+## RSV Guidance (P-003)
+For Leo (preterm, first weeks home):
+- Limit visitors especially anyone with respiratory symptoms
+- Wash hands before holding baby — strict rule
+- Avoid crowded indoor spaces first 4 weeks
+- Any fever (>100.4°F rectal) = call pediatrician same day — do NOT wait
 
-## P-002 Action Note
-Send Hector a Telegram reminder about Leo's pediatrician 48h visit (due ~June 5).
-Format: "⏰ Leo's 48h peds check-up is due June 5. Is that booked?"
+## Recent Decisions
+- 2026-06-02: Initialized from health-coach.agent.md
+- 2026-06-03: Leo home. P-002 and P-003 added to proposals.
