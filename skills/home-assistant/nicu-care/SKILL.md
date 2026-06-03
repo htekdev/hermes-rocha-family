@@ -22,7 +22,7 @@ Leo and Mia Rocha were born April 16, 2026 — premature (~10 weeks early). Leo 
 - Pediatric follow-up coordination post-discharge
 - Baby-care quality-of-life flags (feeding, weight gain, breathing events)
 
-## NICU Status (as of 2026-06-02)
+## NICU Status (as of 2026-06-03)
 
 | Twin | Status | Location |
 |------|--------|----------|
