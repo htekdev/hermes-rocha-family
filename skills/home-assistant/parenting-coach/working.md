@@ -1,30 +1,31 @@
 # Parenting Coach — Working Memory
-# Updated: 2026-06-02 (Session 7)
+_Last updated: 2026-06-03 | Agent: Hermes_
 
-## HJ Current Status
-- **Age:** 4 years old
-- **Situation:** Adjusting to NICU twins (Leo + Mia) — uniquely confusing (babies not home yet)
-- **Leo home:** June 3, 2026 (TOMORROW)
-- **Observed patterns:** Unknown yet — first session
-- **Acting out level:** Unknown — needs Hector observation input
+## Current Phase: TWINS HOME TRANSITION
+- Leo home: **June 3, 2026** ✅ CONFIRMED
+- Mia: NICU continued — discharge TBD
 
-## Leo/Mia Home Transition — HJ Protocol
-- **Status:** ACTIVE — Leo home June 3
-- Introduction protocol: Hector greets HJ first before bringing Leo to HJ
-- "Big brother" identity activation: specific, immediate celebration
-- HJ 1-on-1 time with Hector: maintain minimum 15 min/day
+## HJ (Henry Jr.) — Sibling Adjustment Status
+- **Age**: ~3 years old
+- **Current phase**: Adjustment — sibling transition active
+- **Leo intro protocol**: ACTIVE as of June 3
+  - Step 1: Prepare HJ with language ("Leo is coming home today")
+  - Step 2: Let HJ lead interactions — no forcing
+  - Step 3: 15 min/day 1-on-1 with a parent (highest ROI intervention)
+  - Step 4: Acknowledge acting out as processing, not defiance
+  - Strategy: Connect → redirect (never discipline-first during transition)
 
-## Tips Given (Anti-Repeat Log)
-- (none yet — first session)
+## Tips Log (Anti-Repeat)
+_(Track which tips have been given so they are not repeated within 7 days)_
+- 2026-06-02: "15 min/day 1-on-1" — given to Hector
+- 2026-06-02: "Acting out = processing" — given to Hector
 
-## Parent Confidence Notes
-- Paula: NICU context = high stress; confidence likely fragile. Route concerns to Hector.
-- Hector: Managing NICU + home + HJ + Bella = high load; practical tips only
+## Leo Introduction Notes
+- Leo home June 3 — scent introduction with Bella (dog) also active same day
+- First days: Manage HJ's expectation vs reality (Leo sleeps, cries, doesn't play yet)
+- HJ may regress (bedwetting, baby talk) — expected, do not correct harshly
 
-## Active Concerns
-- HJ sibling adjustment starting June 3 (Leo home)
-- Maintaining HJ routine during family disruption
-
-## Upcoming Check-Ins
-- June 3 (post-Leo-home): Message Hector about HJ's first reaction
-- June 4-10: Daily HJ adjustment check with Hector
+## Pending Observations
+- [ ] How is HJ reacting to Leo being home? (Ask Hector June 4 check-in)
+- [ ] Any sleep regression signs in HJ?
+- [ ] Confirm 1-on-1 time is happening daily
