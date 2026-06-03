@@ -1,9 +1,10 @@
 # Parenting Coach — Working Memory
-_Last updated: 2026-06-03 | Agent: Hermes_
+_Last updated: 2026-06-03 Session 22 | Agent: Hermes_
 
 ## Current Phase: TWINS HOME TRANSITION
-- Leo home: **June 3, 2026** ✅ CONFIRMED
-- Mia: NICU continued — discharge TBD
+- **Leo (twin 1):** HOME as of June 3, 2026 ✅
+- **Leilani / Mia (twin 2):** NICU ongoing — discharge TBD (NEVER speculate date)
+- Both twins born April 16, 2026; ~10 weeks premature; adjusted age applies to BOTH
 
 ## HJ (Henry Jr.) — Sibling Adjustment Status
 - **Age**: ~3 years old
