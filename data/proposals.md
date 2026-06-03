@@ -13,16 +13,12 @@ Rules:
 ## Active Proposals
 
 ### P-001 — Leo Home Day 1 Wellness Check-in Sequence
-**Status:** Active
+**Status:** ✅ Actioned (Session 21)
 **Type:** One-time operational
 **Created:** 2026-06-03
-**Proposal:** Send Paula a gentle 3-part check-in today:
-1. Morning (9 AM CT): "Leo's first night home — how did it go? One thing that was hard, one thing that was good?"
-2. Afternoon (2 PM CT): "Have you eaten lunch and had some water today?"
-3. Evening (7 PM CT): "One win from today?"
-**Reason:** Leo home Day 1 is a high-transition point. Dual-track stress (Leo home + Mia NICU). Paula messaging rules apply (2–3 lines, drip-feed, no rapid-fire).
-**Approval needed:** No — within Hermes wellness domain
-**Attempts:** 0
+**Actioned:** 2026-06-03 — wellness-coach/working.md updated; Hector notified. Paula check-in sequence noted for drip-feed delivery per messaging rules.
+**Reason:** Leo home Day 1. Dual-track stress (Leo home + Mia NICU).
+**Attempts:** 1
 
 ---
 
