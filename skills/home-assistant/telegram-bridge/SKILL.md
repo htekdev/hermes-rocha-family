@@ -1,7 +1,7 @@
 ---
 name: telegram-bridge
 description: Use when sending Telegram messages to Hector or Paula. Defines TTS rules, message length limits, allowlist, per-person communication standards, and quiet hours.
-version: 1.0.0
+version: 1.1.0
 author: Hermes Agent
 license: MIT
 metadata:
@@ -61,6 +61,46 @@ Hermes communicates with the Rocha family exclusively via Telegram. Two channels
 ✅ [Result/status in one line]
 📌 [Key detail if needed]
 → [Single next action if any]
+```
+
+### Task Serve (Hector):
+```
+🎯 [Task Title]
+📋 [1-line instruction]
+⏱️ ~X min
+📋 X pending | Y due today
+```
+
+### Task Completion + Next (Hector):
+```
+✅ [Done task] — nice! 🎉
+→ 🎯 Next: [Next task] (~X min)
+📋 X pending
+```
+
+### Alert / Urgent (Hector):
+```
+🔴 [URGENT THING]
+📝 [What to do RIGHT NOW]
+📞 [Contact/link if applicable]
+```
+
+### Daily Briefing (Hector):
+```
+☀️ Good morning!
+📅 Today: [X events]
+• [Event 1] at [time]
+✅ Tasks: X pending (Y high priority)
+💰 Bills: [any due today/tomorrow]
+🍽️ Dinner: [tonight's meal]
+```
+
+### Status Report (Hector):
+```
+📊 [Report Title]
+• [Finding 1]
+• [Finding 2]
+[Action taken or recommendation]
 ```
 
 ### Wellness check-in (Paula):
